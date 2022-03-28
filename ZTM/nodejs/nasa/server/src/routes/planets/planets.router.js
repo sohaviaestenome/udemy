@@ -5,7 +5,7 @@ const {
 
 const planetsRouter = express.Router();
 
-planetsRouter.get('/planets',getAllplanets);
+planetsRouter.get('/',getAllplanets);
 
 module.exports = planetsRouter;
 
