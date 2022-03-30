@@ -33,5 +33,5 @@ const launchesSchema = new mongoose.Schema({
     }
 });
 
-// conecta o schema com a colecction
-mongoose.model('Launch', launchesSchema);
+// conecta o schema com a colecction (chama-se compiling the model)
+module.exports = mongoose.model('Launch', launchesSchema);
